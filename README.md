@@ -3,7 +3,7 @@
 <strong> Container-Based  DynamoDB-Local Datastore and Hybrid Web-Application Server. </strong>
 
 ### Architectural Diagram Depicting DynamoDB-Local Datastore and Hybrid Web-Application Server
-![Image description](https://github.com/MongoExpUser/Ubuntu-PostgreSQL-Pgvector-Image-and-Containers/blob/main/dynamodb-local-hybrid-webapp-server.png)
+![Image description](https://github.com/MongoExpUser/DynamoDB-Local-and-Hybrid-Web-Application-Server/blob/main/dynamodb-local-hybrid-webapp-server.png)
 
 ### 1) Build Image:                                                                                             
      * Build
