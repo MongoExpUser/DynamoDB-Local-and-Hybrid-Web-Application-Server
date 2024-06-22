@@ -1,3 +1,4 @@
+# Sample CLI actions with AWS DynamoDB CLI via REST
 
 # describe limits
 sudo docker exec -it webappserver-node /bin/bash -c  "sudo aws dynamodb describe-limits --endpoint-url http://dynamodb-node:8000 --region us-east-1" 
