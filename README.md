@@ -52,12 +52,12 @@
      * Web-App Server Node
        sudo docker exec -it webappserver-node /bin/bash
 
-### 8)  Run Queries on DynamoDB-Local from Host via Webappserver-node (App):                                                                                             
+### 8)  Run Queries on DynamoDB-Local from Host via Web-App Server Node:                                                                                             
         sudo docker exec -it webappserver-node /bin/bash -c  "sudo aws dynamodb describe-limits --endpoint-url http://dynamodb-node:8000 --region us-east-1" 
         sudo docker exec -it webappserver-node /bin/bash -c  "sudo aws dynamodb list-tables --endpoint-url http://dynamodb-node:8000 --region us-east-1"
         sudo docker exec -it webappserver-node /bin/bash -c  "sudo aws dynamodb create-table --table-name cars --attribute-definitions AttributeName=manufacturer,AttributeType=S AttributeName=model,AttributeType=S --key-schema AttributeName=manufacturer,KeyType=HASH AttributeName=model,KeyType=RANGE --billing-mode PAY_PER_REQUEST --endpoint-url http://dynamodb-node:8000 --region us-east-1 --profile default"
 
-### 9)  Run https Request on Web-App Server Node from Host via Web-App Server Node
+### 9)  Run HTTP Request on Web-App Server Node from Host
         sudo docker exec -it webappserver-node /bin/bash -c  "sudo curl http:/localhost:80" 
 
 ### 10)  Stop and Restart Nodes
