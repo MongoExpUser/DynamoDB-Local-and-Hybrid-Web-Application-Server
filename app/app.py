@@ -101,7 +101,7 @@ def main():
     # define credentials, instantiate class, and define table name
     credentials_dict = None
     table_name = 'bakery'
-    credentials_file = "credentials.json"
+    credentials_file = "credentialsPY.json"
     
     
     if credentials_file:
