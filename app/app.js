@@ -8,18 +8,19 @@
 # *                                                                                                                     *
 # *  1) Simple Sample Application: The script implements the DynamoDBApp class for CRUD actions on DynamoDB datastore.  *
 # *  2) The implementation is done with the following Node.js package:                                                  *
-# *     - AWS SDK for JavaScript/Node v3 - AWS DynamoDB Client - https://www.npmjs.com/package/@aws-sdk/client-dynamodb *     
+# *     - AWS SDK for JavaScript/Node v3 - AWS DynamoDB Client - https://www.npmjs.com/package/@aws-sdk/client-dynamodb *
 # *     - Documentation Links                                                                                           *
 # *        a) https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/clients/client-dynamodb/index.html                 *
 # *        b) https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/modules/_aws_sdk_lib_dynamodb.html                 *
 # *     - Install as: sudo npm install @aws-sdk/client-dynamodb @aws-sdk/lib-dynamodb (On Linux/Ubuntu OS)              *
 # *  3) Data is generated with @faker-js/faker Node.js libary                                                           *
 # *     - Documentation Links                                                                                           *
-# *       a) https://www.npmjs.com/package/@faker-js/faker                                                              *  
-# *       b) https://fakerjs.dev/api/                                                                                   *  
+# *       a) https://www.npmjs.com/package/@faker-js/faker                                                              *
+# *       b) https://fakerjs.dev/api/                                                                                   *
 # *     - Install as: sudo npm install @faker-js/faker (On Linux/Ubuntu OS)                                             *
-# *                                                                                                                     *                                                                                                          *
+# *                                                                                                                     *
 # **********************************************************************************************************************/
+
 
 
 class DynamoDBApp
