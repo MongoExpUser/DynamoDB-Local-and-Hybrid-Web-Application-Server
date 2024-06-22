@@ -6,8 +6,7 @@
 # *                                                                                                                     *
 # *  License: MIT - https://github.com/MongoExpUser/DynamoDB-Local-and-Hybrid-Web-Application-Server/blob/main/LICENSE  *
 # *                                                                                                                     *
-# *  1) The module implements DynamoDBApp class for:                                                                    *
-# *     a) DynamoDB Application                                                                                         *
+# *  1) Simple Sample Application: The script implements the DynamoDBApp class for CRUD actions on DynamoDB datastore.  *
 # *  2) The implementation is done with the following Node.js package:                                                  *
 # *     - AWS SDK for JavaScript/Node v3 - AWS DynamoDB Client - https://www.npmjs.com/package/@aws-sdk/client-dynamodb *     
 # *     - Documentation Links                                                                                           *
