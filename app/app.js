@@ -167,9 +167,9 @@ class DynamoDBApp
     let createTable =  false;
     let deleteTable = false;
     let putData = false;
-    let getData = true;
+    let getData = false;
     let updateData = false;
-    let deleteData = true;
+    let deleteData = false;
 
     
     // user the faker library and data below to generate random values to be inserted into the table
