@@ -6,7 +6,7 @@
 # *                                                                                                                *
 # *  Copyright © 2024. MongoExpUser.  All Rights Reserved.                                                         *
 # *                                                                                                                *
-# *  Sample Simple App;                                                                                            *
+# *  Simple Smaple App;                                                                                            *
 # *   This module implements a class for the creation/deleteion of DynamoDB Table.                                 *
 # *   and  DynamoDB CRUD actions with AWS Boto3 (Python) SDK                                                       *
 # *                                                                                                                *
