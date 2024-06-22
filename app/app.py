@@ -110,11 +110,11 @@ def main():
             
     if not credentials_dict:
         credentials_dict = {
-            "aws_access_key_id" : "aws_access_key_id-value",
-            "aws_secret_access_key" : "aws_secret_access_key-value",
-            "region_name" : "region_name-value"
-    }
-            
+            "aws_access_key_id" : "DUMMYKEY",
+            "aws_secret_access_key" : "DUMMYSECRET",
+            "region_name" : "US-EAST-1"
+        }
+         
     if (credentials_dict and table_name):
         dyndb_crud = DynamoDBCrud(credentials=credentials_dict)
 
