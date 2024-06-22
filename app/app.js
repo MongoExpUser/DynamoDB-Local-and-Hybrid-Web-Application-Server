@@ -173,7 +173,7 @@ class DynamoDBApp
     let deleteData = false;
 
     
-    // user the faker library and data below to generate random values to be inserted into the table
+    // use the faker library and data below to generate random values to be inserted into the table
     let insertNumber = 10;
     let categories = ["A", "B", "C", "D", "E", "F"];
     let zones = ["central", "east", "west"];
