@@ -1,27 +1,29 @@
-# ******************************************************************************************************************
-# *  index.py                                                                                                      *
-# ******************************************************************************************************************
-# *                                                                                                                *
-# *  Project: DynamoDB-Local and Hybrid Web-Application Server                                                     *
-# *                                                                                                                *
-# *  Copyright © 2024. MongoExpUser.  All Rights Reserved.                                                         *
-# *                                                                                                                *
-# *  Simple Sample App;                                                                                            *
-# *   This module implements a class for the creation/deleteion of DynamoDB Table                                 *
-# *   and  DynamoDB CRUD actions with AWS Boto3 (Python) SDK                                                       *
-# *                                                                                                                *
-# *  The following methods are implemented within the class:                                                       *
-# *                                                                                                                *
-# *   1) create_table()                                                                                            *
-# *                                                                                                                *
-# *   2) delete_table()                                                                                            *
-# *                                                                                                                *
-# *   3) put_data()                                                                                                *
-# *                                                                                                                *
-# *   4) get_data()                                                                                                *
-# *                                                                                                                *
-# *   5) delete_data()                                                                                             *
-# ******************************************************************************************************************
+# ***********************************************************************************************************************
+# *  index.py                                                                                                           *
+# ***********************************************************************************************************************
+# *                                                                                                                     *
+# *  Project: DynamoDB-Local and Hybrid Web-Application Server                                                          *
+# *                                                                                                                     *
+# *  Copyright © 2024. MongoExpUser.  All Rights Reserved.                                                              *
+# *                                                                                                                     *
+# *  License: MIT - https://github.com/MongoExpUser/DynamoDB-Local-and-Hybrid-Web-Application-Server/blob/main/LICENSE  *
+# *                                                                                                                     *
+# *  Simple Sample Application                                                                                          *
+# *   This script implements a class for the creation/deleteion of DynamoDB Table                                       *
+# *   and  DynamoDB CRUD actions with AWS Boto3 (Python) SDK                                                            *
+# *                                                                                                                     *
+# *  The following methods are implemented within the class:                                                            *
+# *                                                                                                                     *
+# *   1) create_table()                                                                                                 *
+# *                                                                                                                     *
+# *   2) delete_table()                                                                                                 *
+# *                                                                                                                     *
+# *   3) put_data()                                                                                                     *
+# *                                                                                                                     *
+# *   4) get_data()                                                                                                     *
+# *                                                                                                                     *
+# *   5) delete_data()                                                                                                  *
+# ***********************************************************************************************************************
 
 
 from pprint import pprint
