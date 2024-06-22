@@ -53,7 +53,7 @@ services:
   webappserver-node:
     depends_on:
       - dynamodb-node
-    image: server/ubuntu-22.04-nodejs-21-python-3.11:latest
+    image: hybridserver/ubuntu-22.04-nodejs-21-python-3.11-aws-cli-2:latest
     environment:
       KEY: ${AWS_ACCESS_KEY_ID}
       SECRET: ${AWS_SECRET_ACCESS_KEY}
