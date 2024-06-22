@@ -124,8 +124,8 @@ def main():
         Address = "689 Loving Street, MyCity, MyState 99998"
         score = 90
         grade = 'A'
-        # can also pull data from another database or from files on: EBS, S3, EFS or FSX
-        # if this is the case, put the logic here to replace above manually coded value
+        # Can also get data from webs forms, another database, files on SSD, Object storage, managed file systems, streaming events, etc.
+        # If this is the case, put the logic here to replace above manually coded value
     
         # conditions to invoke methods
         read_data = False
