@@ -128,7 +128,7 @@ class DynamoDBApp
     
             else if(action === "deleteData")
             {
-                command = new TransactWriteItemsCommand(params);
+                command = new DeleteCommand(params);
                 const deleteData = await dynamoDBDocumentClient.send(command);
                 console.log("Success - item deleted", deleteData);
                 await dynApp.separator();
